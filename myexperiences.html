@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my experiences</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+      background-image: url('images_iml254/whiteflower.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body> *
+
+</style>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="happyexperiences.html">HAPPY EXPERIENCES</a>
+  <a href="sadexperiences.html">SAD EXPERIENCES</a>
+  <a href="mysteryexperiences.html">MYSTERY EXPERIENCES</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+  <center><h1 style="font-family:Mongolian Baiti; color: #black;">My personal experiences</h1></center>
+  <p><h2 style="font-family:Mongolian Baiti; color: black;">Hello!!</p>
+  <p>Personal experiences refer to the unique events, situations, and interactions that an individual      goes through during their lifetime which shape their attitudes, values, and beliefs.</p>
+  <p>Everyone must have their personal experiences either it is the happy experiences, sad experiences        or anything. In our life will always have the happiest and saddest experiences or moments that we      will never forget. Same goes with me, I also have my own personal experiences that I will never      forget.</p>
+  <center><p>Information is not knwoledge.The only source of knowledge is experiences.</p>
+  <p>You need experience to gain wisdom</p> 
+  <p>- Albert Einstein</p></center>
+  <br>From him, we get to know that experience are very important for us to become success person.
+  <p>So now it's time for us to dive in to my experiences... Lets's go!</br></h2>
+</div>
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+    <h2 style="text-align:right;"><a href="index.html">BACK TO MAIN PAGE</a></h2>
+   
+</body>
+</html> 
